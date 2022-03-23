@@ -1,0 +1,219 @@
+/*---------------------navigace-----------------------*/
+
+ /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: black;
+    }
+
+/*----------------------footer--------------------------*/
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+/*--------------------carousel------------------------*/
+
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+
+/*-----------------------text a stránka-----------------*/
+
+.pagePadding{
+  padding-top: 10em;
+}
+
+
+.pagePadding h1{
+  text-align: center;
+}
+
+.pagePadding h2{
+  text-align: center;
+}
+
+.seminaryPagePadding{
+  padding-top: 10em;
+}
+
+
+
+.pageText{
+  text-align: justify;
+  margin: 4em 2em 2em 2em;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+/*-----------------IDK-----------------------------------*/
+
+@media screen and (min-width: 768px){
+  .pagePadding{
+    padding-top: 5em;
+  }
+  .pageText{
+    text-align: justify;
+    margin: 4em 8em 2em 8em;
+    font-size: 1.3em;
+  }
+}
+
+iframe.googleMap{
+  width: 20em;
+  height: 20em;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+w3-image{
+max-width:100%;
+height:auto;
+}
+
+/*---------------------------semináře--------------------*/
+
+.col-sm-4 a.productHover:hover{
+  text-decoration: none;
+}
+
+.panel-footer{
+  margin: 0 0 1.5em 0 !important;
+  /*background-color: rgba(173, 175, 167, 0.2);*/
+    background-color: #fff !important;
+  color: #31332c;
+  font-weight: bolder;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.panel-footer-details{
+  font-weight: normal;
+  color: #a6a6a6;
+  font-size: .8em;
+  text-align: right;
+}
+
+.panel-body{
+  padding: 0 0 0 0 !important;
+  margin: 0 0 0 0 !important;
+  border-style:none !important;
+
+}
+
+.panel{
+  padding: 0 0 0 0 !important;
+  margin: 2em 2em 2em 2em !important;
+  border-style:none !important;
+  box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.2), 0 1.5px 7px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.panel-primary{
+  padding: 0 0 0 0 !important;
+  margin: 2em 2em 2em 2em !important;
+  border-style:none !important;
+
+/*nastavení asi přechodu na lokaci*/
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+
+}
+
+/*při najetí myší na oblast produktu se plocha celého .panel-primary zvětší bez toho, aby to ovlivnilo ostatní velikosti*/
+.panel-primary:hover{
+  -webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.priceInProductPrint{
+  color: gray;
+  font-size: .9em;
+  font-weight: normal;
+  text-align: right;
+}
+
+/*---------------------------seminář--------------------*/
+.orderButtonSeminary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seminaryProgram {
+
+}
+
+h1.seminarHeading {
+  text-align: left;
+}
+
+.seminaryDetails {
+  background-color: #f2f2f2;
+  margin-top: 1em;
+}
+
+.objednatSeminar{
+  margin-top: 1em;
+}
+
+.popisek{
+  color: #a6a6a6;
+  font-weight: normal;
+}
+
+
+.cenaSeminare {
+  text-align: right;
+}
+
+.box{
+    padding:60px 0px;
+}
+
+/*---------------------------info karty--------------------*/
+
+span{
+    font-size:15px;
+}
+
+.box{
+    /*padding:60px 0px;*/
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    /*padding:60px 10px;*/
+    margin:30px 0px;
+}
+
+
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
